@@ -21,7 +21,7 @@ Changing this code must be done cautiously to avoid breaking the app!
       } else {
         // eslint-disable-next-line no-undef
         self.SNOW((win) => {
-          log(msg, win);
+          logs(msg, win);
           scuttle(win);
         }, realm);
       }

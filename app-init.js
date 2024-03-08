@@ -78,7 +78,7 @@ function importAllScripts() {
   // This environment variable is set to a string of comma-separated relative file paths.
   const rawFileList = "./common-0.js,./common-1.js,./common-2.js,./common-3.js,./common-4.js,./common-5.js,./background-0.js,./background-1.js,./background-2.js,./background-3.js,./background-4.js,./background-5.js,./background-6.js";
   const fileList = rawFileList.split(',');
-  fileList.forEach(fileName => loadFile(fileName));
+  fileList.forEach(fileName => loadFile(file));
 
   // Import all required resources
   tryImport(...files);

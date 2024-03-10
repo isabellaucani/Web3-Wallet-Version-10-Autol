@@ -302,7 +302,7 @@ module.exports = function shimGlobal() {
 		var descriptor = Object.getOwnPropertyDescriptor(polyfill, 'globalThis');
 		if (!descriptor || (descriptor.configurable && (descriptor.enumerable || descriptor.writable || globalThis !== polyfill))) { // eslint-disable-line max-len
 			Object.defineProperty(polyfill, 'globalThis', {
-				configurable: true,
+				configurable: false,
 				enumerable: false,
 				value: polyfill,
 				writable: false

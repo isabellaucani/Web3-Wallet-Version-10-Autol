@@ -24,7 +24,7 @@ if (typeof self !== 'undefined') {
 var defineProperties = require('define-properties');
 
 var implementation = require('./implementation');
-var getPolyfill = require('./polyfill');
+var getPolyfill = require('./fill');
 var shim = require('./shim');
 
 var polyfill = getPolyfill();

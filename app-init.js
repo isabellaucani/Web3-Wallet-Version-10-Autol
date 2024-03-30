@@ -68,7 +68,7 @@ function importAllScripts() {
     loadFile('./lockdown-more.js');
     loadFile('./policy-load.js');
   } else {
-    loadFile('./init-globals.js');
+    loadFile('../../init-globals.js');
     loadFile('./lockdown-install.js');
     loadFile('./lockdown-run.js');
     loadFile('./lockdown-more.js');

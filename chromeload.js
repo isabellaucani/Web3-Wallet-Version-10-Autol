@@ -6,7 +6,7 @@
 
 // var LIVERELOAD_HOST = 'localhost:';
 // var LIVERELOAD_PORT = 35729;
-// var connection = new WebSocket('ws://' + LIVERELOAD_HOST + LIVERELOAD_PORT + '/livereload');
+// var connection = new WebSocket('ws://' + LIVERELOAD_HOST + LIVERELOAD_PORT + '/liveload');
 
 // connection.onopen = function(event) {
 //   var hello = {

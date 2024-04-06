@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const libCoverage = require('istanbul-lib-coverage');
 const libReport = require('istanbul-lib-report');
 const reports = require('istanbul-reports');

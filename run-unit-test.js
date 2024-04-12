@@ -160,7 +160,7 @@ async function start() {
       throw new Error('Test splitting is not supported for mocha yet.');
     } else {
       const processes = [];
-      for (let x = 0; x < fakeParallelism; x++) {
+      for (let x = 0; x < fakeParallelism) {
         processes.push(
           runJest({
             target: jestGlobal ? 'global' : 'dev',

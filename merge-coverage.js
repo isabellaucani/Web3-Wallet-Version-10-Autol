@@ -179,8 +179,7 @@ function getFileCoverage(files, coverageMap) {
  * Checks coverage and reports to console
  * Throws an error if coverage isn't met
  *
- * @param {string} name - The target's name from coverageThresholds in jest
- *  config
+ * @param {string} name - The target's name from coverageThresholds in jest.
  * @param {CoverageTarget} target - the target coverage threshold
  * @param {import('istanbul-lib-coverage').CoverageSummaryData} actual -
  *  istanbul coverage summary representing actual coverage

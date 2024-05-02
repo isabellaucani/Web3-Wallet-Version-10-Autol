@@ -1,7 +1,7 @@
 const fs = require('fs');
 const libCoverage = require('istanbul-lib-coverage');
 const libReport = require('istanbul-lib-report');
-const reports = require('istanbul-reports');
+const reports = require('reports');
 const glob = require('fast-glob');
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
